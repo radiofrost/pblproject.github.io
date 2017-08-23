@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+}
+section{
+	margin-top:15%;
+	margin-left:10%;
+}
+#textbox{
+	text-align:center;
+	padding-bottom:2px;
+	border:2px solid rgba(0,0,0,0.5);
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	outline:none;
+	font-family:verdana;
+	font-size:20px;
+}
+#textbox:focus{
+	border-bottom-color:#142170;
+	transition:0.4s;
+}
+#mailbox{
+	margin-left:18%;
+	text-align:center;
+	padding-bottom:2px;
+	border:2px solid rgba(0,0,0,0.5);
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	outline:none;
+	width:60%;
+	font-family:verdana;
+	font-size:20px;
+}
+#mailbox:focus{
+	border-bottom-color:#142170;
+	transition:0.4s;
+}
+#passbox{
+	margin-left:18%;
+	text-align:center;
+	padding-bottom:2px;
+	border:2px solid rgba(0,0,0,0.5);
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	outline:none;
+	width:60%;
+	font-family:verdana;
+	font-size:20px;
+}
+#passbox:focus{
+	border-bottom-color:#142170;
+	transition:0.4s;
+}
+#btn-create{
+	color:#fff;
+	background:#2ecc71;
+	text-align:center;
+	border:none;
+	width:100px;
+	height:50px;
+	cursor:pointer;
+	font-size:20px;
+	margin-left:40%;
+	border-radius:2px;
+	padding:10px 15px 10px 15px;
+}
+#btn-create:hover{
+	transition:0.5s;
+	-webkit-box-shadow:0px 0px 10px 2px rgba(0,0,0,0.5);
+}

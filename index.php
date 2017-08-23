@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title> Welcome to Eligibility Calculator </title>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="eligibility.png">
+		<link rel="stylesheet" type="text/css" href="style_index.css">
+		<link rel="alternate" media="only screen (max-width:640px)">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<a href="index.php"><p title="Eligibility Calculator" id="tag1"> Eligibility Calculator </p></a>
+	<ul type="none" id="log">
+		<li id="log1"> Log In  </li>
+		<ul type="none" id="log_content">
+			<a href="login_admin.php" target="show_form"><li id="item1"> Admin </li> </a>
+			<a href="login_st.php" target="show_form"><li id="item2"> Student </li></a>
+		</ul>
+	</ul>
+	<ul type="none" id="sign">
+		<li id="sign1"> Sign Up </li>
+		<ul type="none" id="sign_content">
+			<a href="signup_admin.php" target="show_form"><li id="item1"> Admin </li></a>
+			<a href="signup_st.php" target="show_form"><li id="item2"> Student </li></a>
+		</ul>
+		</ul>
+</header>
+<section>
+	<p id="section1">  </p>
+	<iframe name="show_form" id="frame"> </iframe>
+</section>
+</body>
+</html>
